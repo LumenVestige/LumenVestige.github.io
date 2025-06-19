@@ -1,1 +1,1 @@
-[lumenvestige.github.io/](https://lumenvestige.github.io/)
+[lumenvestige.github.io](https://lumenvestige.github.io/)
