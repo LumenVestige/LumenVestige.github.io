@@ -21,6 +21,7 @@
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
     "test": "npm run lint:scss",
+    "serve": "bundle exec jekyll s",
     "prepare": "husky"
   },
   "dependencies": {

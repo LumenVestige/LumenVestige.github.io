@@ -1,6 +1,6 @@
 ---
 title: 一、环境准备
-author: cotes
+author: sanyinchen
 date: 2025-06-19 16:00:00 +0800
 categories: [操作系统, Android2.3系统源码]
 tags: [Android,System]
