@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>LumenVestige</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-06-19T17:10:12+08:00</updated>
+  <updated>2025-06-19T20:13:12+08:00</updated>
   <author>
     <name>LumenVestige</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,34 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>记一次前后端分离项目开发的经验</title>
+    <link href="http://localhost:4000/posts/front-backend-experience-01/" rel="alternate" type="text/html" title="记一次前后端分离项目开发的经验" />
+    <published>2025-06-19T16:52:00+08:00</published>
+  
+    <updated>2025-06-19T17:05:12+08:00</updated>
+  
+    <id>http://localhost:4000/posts/front-backend-experience-01/</id>
+    <content type="text/html" src="http://localhost:4000/posts/front-backend-experience-01/" />
+    <author>
+      <name>sanenchen</name>
+    </author>
+
+  
+    
+    <category term="前端" />
+    
+    <category term="后端" />
+    
+    <category term="打包" />
+    
+  
+
+  <summary>记一次前后端分离项目经验 这个项目用的是 Vue + Vite 作为前端 Golang 作为后端 主要谈一下后端的事情 GIN的坑 当用Vite打包好静态文件，尝试将静态文件映射进去时候，发现常用方法是不可以的，因为静态文件路径为”/” 后端 api路径为”/api”，有一个办法就是把前后端api换做不同端口号，但不想这么做，于是用到了一个中间件：&amp;quot;github.com/gin-contrib/static&amp;quot; 这个东西也有坑 由于使用embed将静态文件打包进可执行文件，static原生不支持embed 所以很尴尬 有人写过了static 项目组就是不接受pr 实现代码： //go:embed dist var dist embed.FS  //go:embed dist/index.html var IndexHtml string  type embedFileSystem st...</summary>
+
+  </entry>
 
   
   <entry>

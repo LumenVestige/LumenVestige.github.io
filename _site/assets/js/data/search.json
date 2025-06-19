@@ -1,5 +1,13 @@
 [
   {
+    "title": "记一次前后端分离项目开发的经验",
+    "url": "/posts/front-backend-experience-01/",
+    "categories": "前端, 后端, 打包",
+    "tags": "Vite, Golang",
+    "date": "2025-06-19 16:52:00 +0800",
+    "content": "记一次前后端分离项目经验 这个项目用的是 Vue + Vite 作为前端 Golang 作为后端 主要谈一下后端的事情 GIN的坑 当用Vite打包好静态文件，尝试将静态文件映射进去时候，发现常用方法是不可以的，因为静态文件路径为”/” 后端 api路径为”/api”，有一个办法就是把前后端api换做不同端口号，但不想这么做，于是用到了一个中间件：&quot;github.com/gin-contri..."
+  },
+  {
     "title": "一、环境准备",
     "url": "/posts/system-android-source/",
     "categories": "操作系统, Android2.3系统源码",

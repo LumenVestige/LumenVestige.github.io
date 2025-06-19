@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="404: Page not found" />
+<meta property="og:title" content="后端" />
 <meta property="og:locale" content="zh_CN" />
 <meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
 <meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<link rel="canonical" href="http://localhost:4000/categories/%E5%90%8E%E7%AB%AF/" />
+<meta property="og:url" content="http://localhost:4000/categories/%E5%90%8E%E7%AB%AF/" />
 <meta property="og:site_name" content="LumenVestige" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="404: Page not found" />
+<meta property="twitter:title" content="后端" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"404: Page not found","url":"http://localhost:4000/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"后端","url":"http://localhost:4000/categories/%E5%90%8E%E7%AB%AF/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>404: Page not found | LumenVestige
+  <title>后端 | LumenVestige
   </title>
 
   <!--
@@ -112,12 +112,7 @@
   
 
   
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css">
-  
 
-  
-    <!-- Image Popup -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css">
   
 
   <!-- Scripts -->
@@ -133,13 +128,6 @@
 <!-- layout specified -->
 
 
-  
-
-  
-    <!-- image lazy-loading & popup & clipboard -->
-    
-  
-
 
 
 
@@ -182,9 +170,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
 
 
 
@@ -192,7 +187,7 @@
 
 
 
-<script defer src="/assets/js/dist/page.min.js"></script>
+<script defer src="/assets/js/dist/misc.min.js"></script>
 
 
 
@@ -395,8 +390,14 @@
           
         
           
+            <span>
+              <a href="/categories/">分类</a>
+            </span>
+          
+        
+          
             
-              <span>404: Page not found</span>
+              <span>后端</span>
             
 
           
@@ -410,7 +411,7 @@
     </button>
 
     <div id="topbar-title">
-      404: Page not found
+      分类
     </div>
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
@@ -436,90 +437,54 @@
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
             
-              <!-- Refactor the HTML structure -->
-
-
-
-<!--
-  In order to allow a wide table to scroll horizontally,
-  we suround the markdown table with `<div class="table-wrapper">` and `</div>`
--->
-
-
-
-<!--
-  Fixed kramdown code highlight rendering:
-  https://github.com/penibelst/jekyll-compress-html/issues/101
-  https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901
--->
-
-
-
-<!-- Change the icon of checkbox -->
-
-
-
-<!-- Handle images -->
-
-
-
-
-
-<!-- Add header for code snippets -->
-
-
-
-<!-- Create heading anchors -->
-
-
-
-
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-
-
-
-
-<!-- return -->
-
+              
 
 
 
 <article class="px-1">
   
     
+
+
+
+<div id="page-category">
+  <h1 class="ps-lg-2">
+    <i class="far fa-folder-open fa-fw text-muted"></i>
+    后端
+    <span class="lead text-muted ps-2">1</span>
+  </h1>
+
+  <ul class="content ps-0">
     
-    <h1 class="dynamic-title">
-      404: Page not found
-    </h1>
-    <div class="content">
-      
+      <li class="d-flex justify-content-between px-md-3">
+        <a href="/posts/front-backend-experience-01/">记一次前后端分离项目开发的经验</a>
+        <span class="dash flex-grow-1"></span>
+        <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
 
 
 
-<p class="lead">抱歉，我们放错了该 URL，或者它指向了不存在的内容。</p>
-    </div>
+
+<time
+  
+    class="text-muted small text-nowrap"
+  
+  data-ts="1750323120"
+  data-df="YYYY/MM/DD"
+  
+>
+  2025/06/19
+</time>
+
+      </li>
+    
+  </ul>
+</div>
+
   
 </article>
-
 
             
           </main>
