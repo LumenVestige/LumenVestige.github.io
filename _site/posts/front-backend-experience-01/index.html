@@ -45,7 +45,7 @@
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@sanenchen" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"sanenchen"},"dateModified":"2025-06-19T17:05:12+08:00","datePublished":"2025-06-19T16:52:00+08:00","description":"记一次前后端分离项目经验 这个项目用的是 Vue + Vite 作为前端 Golang 作为后端 主要谈一下后端的事情 GIN的坑 当用Vite打包好静态文件，尝试将静态文件映射进去时候，发现常用方法是不可以的，因为静态文件路径为”/” 后端 api路径为”/api”，有一个办法就是把前后端api换做不同端口号，但不想这么做，于是用到了一个中间件：&quot;github.com/gin-contrib/static&quot; 这个东西也有坑 由于使用embed将静态文件打包进可执行文件，static原生不支持embed 所以很尴尬 有人写过了static 项目组就是不接受pr 实现代码： ``` golang //go:embed dist var dist embed.FS","headline":"记一次前后端分离项目开发的经验","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/front-backend-experience-01/"},"url":"http://localhost:4000/posts/front-backend-experience-01/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"sanenchen","url":"https://github.com/srcenchen"},"dateModified":"2025-06-19T17:05:12+08:00","datePublished":"2025-06-19T16:52:00+08:00","description":"记一次前后端分离项目经验 这个项目用的是 Vue + Vite 作为前端 Golang 作为后端 主要谈一下后端的事情 GIN的坑 当用Vite打包好静态文件，尝试将静态文件映射进去时候，发现常用方法是不可以的，因为静态文件路径为”/” 后端 api路径为”/api”，有一个办法就是把前后端api换做不同端口号，但不想这么做，于是用到了一个中间件：&quot;github.com/gin-contrib/static&quot; 这个东西也有坑 由于使用embed将静态文件打包进可执行文件，static原生不支持embed 所以很尴尬 有人写过了static 项目组就是不接受pr 实现代码： ``` golang //go:embed dist var dist embed.FS","headline":"记一次前后端分离项目开发的经验","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/front-backend-experience-01/"},"url":"http://localhost:4000/posts/front-backend-experience-01/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -676,7 +676,7 @@
           <em>
             
               
-                sanenchen
+                <a href="https://github.com/srcenchen">sanenchen</a>
                 
               
             
@@ -1367,6 +1367,13 @@ else
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/books/">开源项目资料整理</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/front-backend-experience-01/">记一次前后端分离项目开发的经验</a>
         </li>
       
@@ -1476,6 +1483,43 @@ else
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1487,6 +1531,9 @@ else
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/golang/">Golang</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/learning/">learning</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/system/">System</a>
@@ -1583,9 +1630,13 @@ else
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="下一篇">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/books/"
+      class="btn btn-outline-primary"
+      aria-label="下一篇"
+    >
+      <p>开源项目资料整理</p>
+    </a>
   
 </nav>
 
@@ -1729,6 +1780,43 @@ else
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -1740,6 +1828,9 @@ else
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/golang/">Golang</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/learning/">learning</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/system/">System</a>

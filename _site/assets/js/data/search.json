@@ -1,5 +1,13 @@
 [
   {
+    "title": "开源项目资料整理",
+    "url": "/posts/books/",
+    "categories": "随笔",
+    "tags": "learning",
+    "date": "2025-06-22 17:00:00 +0800",
+    "content": "整理列表    github            awesome       Awesome-Github-Roster           电子书：            ITebooks"
+  },
+  {
     "title": "记一次前后端分离项目开发的经验",
     "url": "/posts/front-backend-experience-01/",
     "categories": "前端, 后端, 打包",

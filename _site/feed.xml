@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>LumenVestige</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-06-19T20:19:00+08:00</updated>
+  <updated>2025-06-22T19:10:17+08:00</updated>
   <author>
     <name>LumenVestige</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>开源项目资料整理</title>
+    <link href="http://localhost:4000/posts/books/" rel="alternate" type="text/html" title="开源项目资料整理" />
+    <published>2025-06-22T17:00:00+08:00</published>
+  
+    <updated>2025-06-22T17:00:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/books/</id>
+    <content type="text/html" src="http://localhost:4000/posts/books/" />
+    <author>
+      <name>sanyinchen</name>
+    </author>
+
+  
+    
+    <category term="随笔" />
+    
+  
+
+  <summary>整理列表    github            awesome       Awesome-Github-Roster           电子书：            ITebooks</summary>
+
+  </entry>
 
   
   <entry>
